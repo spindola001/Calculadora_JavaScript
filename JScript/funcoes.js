@@ -33,7 +33,7 @@ function calculo(op) {
 					operacao *= parseFloat(document.calc.visor.value);
 				else
 					operacao = parseFloat(document.calc.visor.value);
-					document.calc.visor.value = operacao;
+					document.calc.visor.value = parseFloat(operacao.toPrecision(15));
 					operacaoPend = op;
 
 		}
@@ -64,7 +64,7 @@ function raizQ (){
 	var raiz = document.calc.visor.value;
 	raiz = (Math.sqrt(raiz));
 	var resultado = raiz;
-	calc.visor.value = resultado;
+	calc.visor.value = parseFloat(resultado.toPrecision(10));
 }
 /*function porcentagem(){
 	var percent = document.calc.visor.value;
