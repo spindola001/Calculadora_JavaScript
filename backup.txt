@@ -169,3 +169,60 @@ backup
 	left: 630px;
 	bottom: 4px;
 }
+
+
+
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+
+var operacao = 0;
+var novoNum = false;
+var operacaoPend = ""
+
+function press(num) {
+	if (novoNum){
+		document.calc.visor = num;
+		novoNum = false;
+	} 
+	else {
+		if (document.cal.visor.value == "0")
+			document.calc.visor.value = Num;
+		else 
+			document.cal.visor.value += num;
+	}
+}
+function calculo(op) {
+	if (document.calc.visor.value == ""){
+		alert("Para calcular digite um número a ser calculado!");
+		document.calc.visor.value = "0";
+	}
+	else{
+		if (novoNum && operacaoPend != "=");
+		else{ 
+			novoNum = true;
+			if ( '+' == operacaoPend )
+					operacao += parseFloat(document.calc.visor.value);
+					else if ( '-' == operacaoPend )
+					operacao -= parseFloat(document.calc.visor.value);
+					else if ( '/' == operacaoPend )
+					operacao /= parseFloat(document.calc.visor.value);
+					else if ( '*' == operacaoPend )
+					operacao *= parseFloat(document.calc.visor.value);
+				else
+					operaca = parseFloat(document.calc.visor.value);
+					document.calc.visor.value = operacao;
+					operacaoPend = Op;
+
+	}
+}
