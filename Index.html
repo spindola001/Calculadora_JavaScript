@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<script src="JScript/funcoes.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<form name="calculo">
+	<center>
+		<table class="formatacao" border="0">
+			<tr height="150">
+				<th colspan="5"><input type="text" id="visor" name="visor"></th>
+			</tr>
+			<tr height="87">
+				<th colspan="3"><input type="reset" id="Backspace" name="Backspace" value="Reset" onclick=""></th>
+				<th><input type="button" id="botao" name="maisOuMenos" value="±"></th>
+				<th><input type="button" id="botao" name="raizQuadrada" value="√"></th>
+			</tr>
+			<tr height="87">
+				<th><input type="button" id="botao" name="Sete" value="7" onclick = "press (7)"></th>
+				<th><input type="button" id="botao" name="Oito" value="8" onclick = "press (8)"></th>
+				<th><input type="button" id="botao" name="Nove" value="9" onclick = "press (9)"></th>
+				<th><input type="button" id="botao" name="Divisao" value="/"></th>
+				<th><input type="button" id="botao" name="Porcentagem" value="%"></th>
+			</tr height="87">
+			<tr>
+				<th><input type="button" id="botao" name="Quatro" value="4" onclick = "press (4)"></th>
+				<th><input type="button" id="botao" name="Cinco" value="5" onclick = "press (5)"></th>
+				<th><input type="button" id="botao" name="Seis" value="6" onclick = "press (6)"></th>
+				<th><input type="button" id="botao" name="Multiplicacao" value="*"></th>
+				<th><input type="button" id="botao" name="umPorX" value="1/x"></th>
+			</tr>
+			<tr height="87">
+				<th><input type="button" id="botao" name="Um" value="1" onclick = "press (1)"></th>
+				<th><input type="button" id="botao" name="Dois" value="2" onclick = "press (2)"></th>
+				<th><input type="button" id="botao" name="Tres" value="3" onclick = "press (3)"></th>
+				<th><input type="button" id="botao" name="Subtracao" value="-"></th>
+				<th rowspan="2"><input type="button" id="resultado" name="Resultado" value="="></th>
+			</tr>
+			<tr>
+				<th colspan="2"><input type="button" id="zero" name="Zero" value="0" onclick = "press (0)"></th>
+				<th><input type="button" id="botao" name="Virgula" value=","></th>
+				<th><input type="button" id="botao" name="Adicao" value="+"></th>
+			</tr>
+		</table>
+	</center>
+</form>
+</body>
+</html>

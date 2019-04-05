@@ -1,0 +1,171 @@
+backup
+
+#visor {
+	background-color: #0040FF;
+	position: absolute;
+	width: 768px;
+	height: 130px;
+	left: 8px;
+	bottom: 444px;
+}
+#Backspace {
+	position: absolute;
+	width: 140px;
+	height: 80px;
+	left: 8px;
+	bottom: 351px;
+}
+#CE {
+	position: absolute;
+	width: 138px;
+	height: 80px;
+	left: 168px;
+	bottom: 351px;
+}
+#C {
+	position: absolute;
+	width: 138px;
+	height: 80px;
+	left: 325px;
+	bottom: 351px;
+}
+#maisOuMenos {
+	position: absolute;
+	width: 130px;
+	height: 80px;
+	left: 482px;
+	bottom: 351px;
+}
+#raizQuadrada {
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	left: 630px;
+	bottom: 351px;
+}
+#Sete {
+	position: absolute;
+	width: 140px;
+	height: 80px;
+	left: 8px;
+	bottom: 261px;
+}
+#Oito {
+	position: absolute;
+	width: 138px;
+	height: 80px;
+	left: 168px;
+	bottom: 261px;
+}
+#Nove {
+	position: absolute;
+	width: 138px;
+	height: 80px;
+	left: 325px;
+	bottom: 261px;
+}
+#Divisao {
+	position: absolute;
+	width: 130px;
+	height: 80px;
+	left: 482px;
+	bottom: 261px;
+}
+#Porcentagem {
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	left: 630px;
+	bottom: 261px;
+}
+#Quatro {
+	position: absolute;
+	width: 140px;
+	height: 76px;
+	left: 8px;
+	bottom: 178px;
+}
+#Cinco {
+	position: absolute;
+	width: 138px;
+	height: 76px;
+	left: 168px;
+	bottom: 178px;
+}
+#Seis {
+	position: absolute;
+	width: 138px;
+	height: 76px;
+	left: 325px;
+	bottom: 178px;
+}
+#Multiplicacao {
+	position: absolute;
+	width: 130px;
+	height: 76px;
+	left: 482px;
+	bottom: 178px;
+}
+#umPorX {
+	position: absolute;
+	width: 150px;
+	height: 76px;
+	left: 630px;
+	bottom: 178px;
+}
+#Um {
+	position: absolute;
+	width: 140px;
+	height: 80px;
+	left: 8px;
+	bottom: 90px;
+}
+#Dois {
+	position: absolute;
+	width: 138px;
+	height: 80px;
+	left: 168px;
+	bottom: 90px;
+}
+#Tres {
+	position: absolute;
+	width: 138px;
+	height: 80px;
+	left: 325px;
+	bottom: 90px;
+}
+#Subtracao {
+	position: absolute;
+	width: 130px;
+	height: 80px;
+	left: 482px;
+	bottom: 90px;
+}
+#Zero {
+	position: absolute;
+	width: 298px;
+	height: 78px;
+	left: 8px;
+	bottom: 4px;
+}
+#Virgula {
+	position: absolute;
+	width: 138px;
+	height: 78px;
+	left: 325px;
+	bottom: 4px;
+}
+#Adicao {
+	position: absolute;
+	width: 130px;
+	height: 78px;
+	left: 482px;
+	bottom: 4px;
+}
+#Resultado {
+	position: absolute;
+	width: 150px;
+	height: 165px;
+	left: 630px;
+	bottom: 4px;
+}

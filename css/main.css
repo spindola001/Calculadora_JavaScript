@@ -1,0 +1,45 @@
+.formatacao {
+	background-color: black;
+	border: 2px solid #0040FF;
+	position: relative;
+	width: 800px;
+	height: 620px;
+}
+#visor {
+	text-align: right;
+	font-size: 120px;
+	background-color: #0040FF;
+	position: absolute;
+	width: 770px;
+	height: 130px;
+	left: 14px;
+	bottom: 469px;
+}
+#botao {
+	background-color: #000000;
+	color: #0040FF;
+	font-size: 50px;
+	width: 140px;
+	height: 80px;
+}
+#zero {
+	background-color: #000000;
+	color: #0040FF;
+	font-size: 50px;
+	width: 305px;
+	height: 80px;
+}
+#resultado {
+	background-color: #000000;
+	color: #0040FF;
+	font-size: 50px;
+	width: 140px;
+	height: 168px;
+}
+#Backspace {
+	background-color: #000000;
+	color: #0040FF;
+	font-size: 50px;
+	width: 465px;
+	height: 80px;
+}
