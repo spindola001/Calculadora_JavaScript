@@ -15,7 +15,7 @@ function press(num) {
 	}
 }
 function calculo(op) {
-	if (document.calc.visor.value == ""){
+	if (document.calc.visor.value == "0"){
 		alert("Campo vazio, digite valores a serem calculados.");
 		document.calc.visor.value = "0";
 	}
